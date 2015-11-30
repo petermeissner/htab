@@ -1,0 +1,12 @@
+Package: htab
+Type: Package
+Title: Produce HTML tables.
+Version: 0.1.0
+Author: Peter Meissner, Jonas Mosbech
+Maintainer: Peter Meissner <retep.meissner@gmail.com>
+Description: Transform data.frames into HTML tables with floating table header.
+License: MIT + file LICENSE
+Imports:
+    stringr (>= 1.0.0)
+LazyData: TRUE
+RoxygenNote: 5.0.1

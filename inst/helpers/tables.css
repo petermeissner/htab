@@ -1,0 +1,90 @@
+body {
+  background: #FFFFFF;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  margin-left:40px;
+}
+
+H1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  font-style: normal;
+  font-weight: normal;
+    text-align: center;
+  margin: 30pt;
+}
+
+H2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: bold;
+}
+
+H3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: bold;
+}
+
+H4 {
+  font-family: T, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+    line-height: 16pt
+}
+
+table
+{
+border-collapse: collapse; 
+}
+
+table td, table th
+{
+padding: 10; /* 'cellpadding' equivalent */
+}
+
+
+TR:hover { 
+  background: #CCD9E8 !important; 
+  background-color: #CCD9E8 !important; 
+}
+    
+TR {
+  font-family: Arial, Helvetica, Times, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  padding: 0 0
+}
+
+TR.firstline {
+color: #FFFFFF ;
+  background: #000000 ;
+  text-align: center ;
+  font-weight: bold;
+}
+TR.ListBackTitle {
+color: #FFFFFF;
+  background: #000000;
+  text-align: left;
+  font-weight: bold ;
+}
+
+a:link {
+  color: DarkOrange;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: DarkOrange;
+  text-decoration: none;
+}
+
+code{
+  white-space: pre; 
+}
