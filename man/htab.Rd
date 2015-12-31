@@ -20,6 +20,18 @@ htab(x, file = "", standalone = TRUE, names = TRUE, head = "",
 \item{head}{should user defined HTML head be used (everything before the table)}
 
 \item{foot}{should user defined HTML foot be used (everything after the table)}
+
+\item{color}{a vector of colors of length 1 or of length equal to number of rows of the table that will be used to set linewise text color}
+
+\item{bgcolor}{same as color but for linewise backgrounf color}
+
+\item{html}{some html / Javascript or whatever put in front of the table}
+
+\item{browse}{bolean, weather or not to have a look at the table in Browser}
+
+\item{width}{vector of length equal to number of columns; allows to specify html width arguments}
+
+\item{digits}{number of digits to round numbers to}
 }
 \description{
 function for making html table

@@ -5,6 +5,12 @@
 #' @param names might be TRUE, FALSE or a character vector giving the names of the columns
 #' @param head should user defined HTML head be used (everything before the table)
 #' @param foot should user defined HTML foot be used (everything after the table)
+#' @param color a vector of colors of length 1 or of length equal to number of rows of the table that will be used to set linewise text color
+#' @param bgcolor same as color but for linewise backgrounf color
+#' @param html some html / Javascript or whatever put in front of the table
+#' @param browse bolean, weather or not to have a look at the table in Browser
+#' @param width vector of length equal to number of columns; allows to specify html width arguments
+#' @param digits number of digits to round numbers to
 #' @import stringr
 #' @export
 htab <- function( x,
