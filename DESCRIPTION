@@ -6,7 +6,7 @@ Maintainer: Peter Meissner <retep.meissner@gmail.com>
 Authors@R: c(
     person("Peter", "Meissner", email = "retep.meissner@gmail.com", role = c("aut", "cre")),
     person("Jonas", "Mosbech", role = c("ctb", "cph"), comment = "inst/helpers/stickyTableHeaders.js is Copyright (c) 2011 by Jonas Mosbech - https://github.com/jmosbech/StickyTableHeaders MIT license info: https://github.com/jmosbech/StickyTableHeaders/blob/master/license.txt"),
-    person("jQuery Foundation, Inc.", " ", role = c("ctb", "cph"), comment = "inst/helpers/jquery.min.js is jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license"),
+    person("jQuery Foundation, Inc.", " ", role = c("ctb", "cph"), comment = "inst/helpers/jquery.min.js is jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license")
     )
 Description: Transform data.frames into HTML tables with floating table header.
 License: MIT + file LICENSE
