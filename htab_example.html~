@@ -1,0 +1,63 @@
+
+
+<!--
+ htab(cars, file=htab_example.html, color=#000000, bgcolor=topo.colors(cars$speed), standalone=FALSE) 
+-->
+ <table style='vertical-align: top;' border=0 class=innerTable>
+  <tr class= firstline>
+  <th> #  </th>
+  <th> speed  </th>
+  <th> dist  </th> 
+ </tr>
+     <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[ 1]</code> </td> <td>  4 </td> <td>   2 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[ 2]</code> </td> <td>  4 </td> <td>  10 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[ 3]</code> </td> <td>  7 </td> <td>   4 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[ 4]</code> </td> <td>  7 </td> <td>  22 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[ 5]</code> </td> <td>  8 </td> <td>  16 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[ 6]</code> </td> <td>  9 </td> <td>  10 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[ 7]</code> </td> <td> 10 </td> <td>  18 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[ 8]</code> </td> <td> 10 </td> <td>  26 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[ 9]</code> </td> <td> 10 </td> <td>  34 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[10]</code> </td> <td> 11 </td> <td>  17 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[11]</code> </td> <td> 11 </td> <td>  28 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[12]</code> </td> <td> 12 </td> <td>  14 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[13]</code> </td> <td> 12 </td> <td>  20 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[14]</code> </td> <td> 12 </td> <td>  24 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[15]</code> </td> <td> 12 </td> <td>  28 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[16]</code> </td> <td> 13 </td> <td>  26 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[17]</code> </td> <td> 13 </td> <td>  34 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[18]</code> </td> <td> 13 </td> <td>  34 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[19]</code> </td> <td> 13 </td> <td>  46 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[20]</code> </td> <td> 14 </td> <td>  26 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[21]</code> </td> <td> 14 </td> <td>  36 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[22]</code> </td> <td> 14 </td> <td>  60 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[23]</code> </td> <td> 14 </td> <td>  80 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[24]</code> </td> <td> 15 </td> <td>  20 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[25]</code> </td> <td> 15 </td> <td>  26 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[26]</code> </td> <td> 15 </td> <td>  54 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[27]</code> </td> <td> 16 </td> <td>  32 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[28]</code> </td> <td> 16 </td> <td>  40 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[29]</code> </td> <td> 17 </td> <td>  32 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[30]</code> </td> <td> 17 </td> <td>  40 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[31]</code> </td> <td> 17 </td> <td>  50 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[32]</code> </td> <td> 18 </td> <td>  42 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[33]</code> </td> <td> 18 </td> <td>  56 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[34]</code> </td> <td> 18 </td> <td>  76 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[35]</code> </td> <td> 18 </td> <td>  84 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[36]</code> </td> <td> 19 </td> <td>  36 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[37]</code> </td> <td> 19 </td> <td>  46 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[38]</code> </td> <td> 19 </td> <td>  68 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[39]</code> </td> <td> 20 </td> <td>  32 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[40]</code> </td> <td> 20 </td> <td>  48 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[41]</code> </td> <td> 20 </td> <td>  52 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[42]</code> </td> <td> 20 </td> <td>  56 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[43]</code> </td> <td> 20 </td> <td>  64 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[44]</code> </td> <td> 22 </td> <td>  66 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[45]</code> </td> <td> 23 </td> <td>  54 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[46]</code> </td> <td> 24 </td> <td>  70 </td>  </tr>
+    <tr style='background-color: #00FF4DFF ; color: #000000  '>  <td> <code>[47]</code> </td> <td> 24 </td> <td>  92 </td>  </tr>
+    <tr style='background-color: #FFFF00FF ; color: #000000  '>  <td> <code>[48]</code> </td> <td> 24 </td> <td>  93 </td>  </tr>
+    <tr style='background-color: #4C00FFFF ; color: #000000  '>  <td> <code>[49]</code> </td> <td> 24 </td> <td> 120 </td>  </tr>
+    <tr style='background-color: #00E5FFFF ; color: #000000  '>  <td> <code>[50]</code> </td> <td> 25 </td> <td>  85 </td>  </tr> 
+</table>
+

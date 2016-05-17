@@ -52,7 +52,7 @@ htab <- function( x,
         ifelse(
           bgcolor=="" & color=="",
           '    <tr><td>',
-          paste("    <tr style='background-color:", bgcolor , "; color:", " '>  <td>")
+          paste("    <tr style='background-color:", bgcolor , "; color:", color, " '>  <td>")
         ),
         apply(
           cbind(
@@ -141,3 +141,79 @@ htab <- function( x,
   # return
   invisible(html)
 }
+
+#' function to scale values
+#' @param x vector to be scaled
+#' @param n number of colors
+#' @export
+scale_terrain <- function(x, n){
+  cols <- terrain.colors(n)
+  cols <- cols[as.numeric(cut(x,n))]
+  substr(cols, 1, 7)
+}
+
+#' function to scale values
+#' @param x vector to be scaled
+#' @param n number of colors
+#' @export
+scale_cm <- function(x, n){
+  cols <- cm.colors(n)
+  cols <- cols[as.numeric(cut(x,n))]
+  substr(cols, 1, 7)
+}
+
+#' function to scale values
+#' @param x vector to be scaled
+#' @param n number of colors
+#' @export
+scale_topo <- function(x, n){
+  cols <- topo.colors(n)
+  cols <- cols[as.numeric(cut(x,n))]
+  substr(cols, 1, 7)
+}
+
+#' function to scale values
+#' @param x vector to be scaled
+#' @param n number of colors
+#' @export
+scale_blues <- function(x, n){
+  cols <- c("#fff7fb",  "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", "#0570b0", "#045a8d", "#023858")
+  if(n >= 9){
+    n<-9
+  }
+  if(n == 8) {
+    cols <- cols[2:9]
+  }
+  if(n == 7) {
+    cols <- cols[c(3,4,5,6,7,8,9)]
+  }
+  if(n == 6) {
+    cols <- cols[c(3,4,5,6,7,8)]
+  }
+  if(n == 5) {
+    cols <- cols[c(4,5,6,7,8)]
+  }
+  if(n == 4) {
+    cols <- cols[c(4,5,7,8)]
+  }
+  if(n == 3){
+    cols <- cols[c(5,6,7)]
+  }
+  if(n == 2){
+    cols <- cols[c(4,7)]
+  }
+  if(n <=1){
+    n<-1
+    cols <- cols[6]
+    return( rep(cols, length(x)) )
+  }
+ return(cols[as.numeric(cut(x,n))])
+}
+
+
+
+
+
+
+
+
